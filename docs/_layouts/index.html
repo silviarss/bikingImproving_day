@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Biking Improver Day</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg" href="assets/img/favicon-32x32.svg">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Vesperr - v2.3.0
+  * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center">
+
+            <div class="logo mr-auto">
+                <a href="index.html"><img src="assets/img/logo/logo.svg" alt="" class="img-fluid"></a>
+            </div>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#rules">Regolamento</a></li>
+                    <li><a href="#prizes">Premi</a></li>
+                    <li><a href="#info">Informazioni</a></li>
+                    <li>
+                        <a href="https://www.facebook.com/greemta" class="facebook">
+                            <i class="icofont-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/greemta" class="twitter">
+                            <i class="icofont-twitter"></i></a>
+                    </li>
+                    <!--<li class="get-started"><a href="#about">Get Started</a></li>-->
+                </ul>
+            </nav>
+            <!-- .nav-menu -->
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <h1 data-aos="fade-up">Biking Improver Day</h1>
+                    <h2 data-aos="fade-up" data-aos-delay="400">Migliora i dati della ciclabilità</h2>
+                    <h3 data-aos="fade-up" data-aos-delay="400">Inserisci, modifica dati sul posto e giocando!</h3>
+                    <p data-aos="fade-up" data-aos-delay="400">
+                            {% if page.home %} {% capture home %}{% include_relative _texts/{{ page.home }}%}{% endcapture %} {{ home | markdownify }} {% endif %}
+                    </p>
+                    <div data-aos="fade-up" data-aos-delay="800">
+                        <a href="#regolamento" class="btn-get-started scrollto">Regolamento</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+                    <img src="assets/img/park3.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= Clients Section ======= -->
+        <section id="clients" class="clients clients">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <img src="assets/img/logo/wikimediaitalia.png" class="img-fluid" alt="" data-aos="zoom-in">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <img src="assets/img/logo/gisdevio.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <img src="assets/img/logo/fbk.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Clients Section -->
+
+        <!-- ======= Portfolio Section ======= -->
+       
+      
+        <!-- ======= F.A.Q Section ======= -->
+        <section id="regolamento" class="faq">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Regolamento</h2>
+                </div>
+
+                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-5">
+                        <i class="ri-checkbox-blank-line"></i>
+                        <h4>Date Importanti</h4>
+                    </div>
+                    <div class="col-lg-7">
+                        <p>
+                            DA DEFINITE
+                        </p>
+                    </div>
+                </div>
+                <!-- End F.A.Q Item-->
+
+                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-5">
+                        <i class="ri-checkbox-blank-line"></i>
+                        <h4>Chi può partecipare</h4>
+                    </div>
+                    <div class="col-lg-7">
+                        <p>
+                           Chiunque abbia modo di modersi muovere a Trento in quei giorni
+                        </p>
+                    </div>
+                </div>
+                <!-- End F.A.Q Item-->
+
+                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-5">
+                        <i class="ri-checkbox-blank-line"></i>
+                        <h4>Processo di valutazione</h4>
+                    </div>
+                    <div class="col-lg-7">
+                        <p>
+ 				L'applicazione usa un motore di gamification che assegna in automatico il punteggio: più dati raccogli e più punteggi ottieni!
+                        </p>
+                    </div>
+                </div>
+                <!-- End F.A.Q Item-->
+
+                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-lg-5">
+                        <i class="ri-checkbox-blank-line"></i>
+                        <h4>Premi</h4>
+                    </div>
+                    <div class="col-lg-7">
+                        <p>
+                            I primi riceveranno dei bellissimi <a href="#premi">premi</a>.
+                        </p>
+                    </div>
+                </div>
+                <!-- End F.A.Q Item-->
+
+                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
+                    <div class="col-lg-5">
+                        <i class="ri-checkbox-blank-line"></i>
+                        <h4>Sintesi delle regole</h4>
+                    </div>
+                    <div class="col-lg-7">
+                        <p>
+                            Qui trovi un documento con tutto.
+                        </p>
+                        <p>
+                           In ogni caso ti chiediamo di leggere il documento del <a href="rules_of_competition_greemta_challenge.pdf">“regolamento”</a>.
+                        </p>
+                    </div>
+                </div>
+                <!-- End F.A.Q Item-->
+
+            </div>
+        </section>
+        <!-- End F.A.Q Section -->
+
+
+        <!-- ======= Prizes Section ======= -->
+        <section id="premi" class="team section-bg">
+
+            <div class="container">
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Premi</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-left">
+                        <h5 data-aos="fade-up">
+                            Questi i premi
+                        </h5>
+                        <p>
+                            <h6 data-aos="fade-up" data-aos-delay="400">primo</h6>
+                            <h6 data-aos="fade-up" data-aos-delay="400">secondo</h6>
+                            <h6 data-aos="fade-up" data-aos-delay="400">terzp</h6>
+                            <h6 data-aos="fade-up" data-aos-delay="400">e a tutti un simpatico omaggio</h6>
+                        </p>
+                        <p data-aos="fade-up" data-aos-delay="400">Vedi i dettagli del <a href="#rules">Regolamento</a></p>
+                    </div>
+                    <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+                        <img width="80%" src="assets/img/trophy.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Team Section -->
+
+
+        <!-- ======= Contact Section ======= -->
+        <section id="info" class="contact">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Informazioni</h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3>About</h3>
+                        <p>
+                            Biking Improver è un progetto nato da Francesco Weikman durante il suo periodo di intership/tesi in <a href="https://www.fbk.eu/">Fondazione Bruno Kessler</a><br />
+                            <br /> Lo scopo di Biking Improver Day è fare conoscere il progetto in modo che molte altre persone possano poi usarlo per raccogliere dati in maniera divertente.
+                        </p>
+                    </div>
+
+                    <div class="col-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="info">
+                            <h3>Contatti</h3>
+                            <div>
+                                <i class="ri-mail-send-line"></i>
+                                <p><a class="text-secondary" href="mailto://info@greemta.eu">info@bikinimproverday.it</a></p>
+                            </div>
+                            <div>
+                                <i class="icofont-twitter"></i>
+                                <p><a class="text-secondary" href="https://twitter.com/napo" class="twitter">https://twitter.com/napo</a></p>
+                            </div>
+                            <div>
+                                <i class="icofont-facebook"></i>
+                                <p>
+                                    <a class="text-secondary" href="https://wikimediaitalia.it" " class=" facebook ">https://wikimediaitalia.it/a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer ">
+    <div class="container ">
+      <div class="row d-flex align-items-center ">
+        <div class="col-lg-6 text-lg-left text-center ">
+          <div class="credits small ">
+            template based on <strong>Vesperr</strong> designed by <a
+              href="https://bootstrapmade.com/ ">BootstrapMade</a>
+          </div>
+        </div>
+        <div class="col-lg-6 ">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0 ">
+            <a href="# " class="scrollto ">Home</a>
+            <a href="https://challenge.greemta.eu/privacy_policy_greemta_challenge.pdf ">Privacy Policy</a>
+            <a href="api/ ">&lt;API/&gt;</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="# " class="back-to-top "><i class="icofont-simple-up "></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js "></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js "></script>
+  <script src="assets/vendor/php-email-form/validate.js "></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js "></script>
+  <script src="assets/vendor/counterup/counterup.min.js "></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js "></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+  <script src="assets/vendor/venobox/venobox.min.js "></script>
+  <script src="assets/vendor/aos/aos.js "></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js "></script>
+
+</body>
+
+</html>
