@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index 
 home: home.md
 regole: regole.md
 premi: premi.md
