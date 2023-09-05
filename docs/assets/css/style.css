@@ -5,11 +5,37 @@
 * License: https://bootstrapmade.com/license/
 */
 
+@font-face {
+  font-family: "futura";
+  src: url('../vendor/fonts/futura/futur.ttf') format('truetype'),
+       url('../vendor/fonts/futura/Futura\ Bold\ font.ttf') format('truetype'),
+       url('../vendor/fonts/futura/Futura\ Bold\ Italic\ font.ttf') format('truetype'),
+       url('../vendor/fonts/futura/Futura\ Book\ Italic\ font.ttf') format('truetype'),
+       url('../vendor/fonts/futura/Futura\ Extra\ Black\ font.ttf') format('truetype'),
+       url('../vendor/fonts/futura/Futura\ Heavy\ font.ttf') format('truetype'),
+       url('../vendor/fonts/futura/Futura\ Heavy\ Italic\ font.ttf') format('truetype'),
+       url('../vendor/fonts/futura/futura\ light\ bt.ttf') format('truetype'),
+       url('../vendor/fonts/futura/Futura\ Light\ font.ttf') format('truetype'),
+       url('../vendor/fonts/futura/Futura\ Light\ Italic\ font.ttf') format('truetype'),
+       url('../vendor/fonts/futura/futura\ medium\ bt.ttf') format('truetype'),
+       url('../vendor/fonts/futura/futura\ medium\ condensed\ bt.ttf') format('truetype'),
+       url('../vendor/fonts/futura/Futura\ Medium\ Italic\ font.ttf') format('truetype'),
+       url('../vendor/fonts/futura/Futura\ XBlk\ BT.ttf') format('truetype'),
+       url('../vendor/fonts/futura/tt0205m_.ttf') format('truetype'),
+       url('../vendor/fonts/futura/unicode.futurab.ttf') format('truetype'),
+       url('../vendor/fonts/futura/unicode.futurabb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "stratos";
+  src: url('../vendor/fonts/stratos/Stratos-Regular.ttf') format('truetype');
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Inter","Open Sans", sans-serif;
+  font-family: "stratos","futura","Inter","Open Sans", sans-serif;
   color: #444444;
 }
 
@@ -24,7 +50,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Inter", sans-serif;
+  font-family: "stratos","Inter", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -134,7 +160,7 @@ background: #c1d77f;
   padding: 8px 0 12px 25px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Inter","Open Sans", sans-serif;
+  font-family: "stratos","Inter","Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -387,7 +413,7 @@ background: #c1d77f;
 }
 
 #hero .btn-get-started {
-  font-family: "Inter", sans-serif;
+  font-family: "stratos","Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -600,7 +626,7 @@ background: #c1d77f;
 }
 
 .about .content .btn-learn-more {
-  font-family: "Inter", sans-serif;
+  font-family: "stratos","Inter", sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -671,7 +697,7 @@ background: #c1d77f;
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Inter", sans-serif;
+  font-family: "stratos","Inter", sans-serif;
   font-size: 14px;
   color: #484848;
 }
@@ -1212,7 +1238,7 @@ background: #c1d77f;
   font-size: 42px;
   color: #d89aac;
   font-weight: 500;
-  font-family: "Inter","Open Sans", sans-serif;
+  font-family:"stratos", "Inter","Open Sans", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1267,7 +1293,7 @@ color: #444444;
 color: #444444;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Inter", sans-serif;
+  font-family: "stratos","Inter", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1345,7 +1371,7 @@ background: #c1d77f;
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Inter", sans-serif;
+  font-family: "stratos","Inter", sans-serif;
   color: #888;
 }
 
