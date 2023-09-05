@@ -82,10 +82,11 @@
             <div class="row">
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <h1 data-aos="fade-up"><img src="assets/img/title.svg" alt=""></h1>
-                    <h2 data-aos="fade-up" data-aos-delay="400">Raccogliere i dati della ciclabilità urbana giocando</h2>
-                    <h3 data-aos="fade-up" data-aos-delay="400">...</h3>
+                    <h2 data-aos="fade-up" data-aos-delay="400">{% if page.home_1 %} {% capture home_1 %}{% include_relative _texts/{{ page.home_1 }}%}{% endcapture %} {{ home_1 | markdownify }} {% endif %}
+                    </h2>
+                    <h3 data-aos="fade-up" data-aos-delay="400">{% if page.home_2 %} {% capture home_2 %}{% include_relative _texts/{{ page.home_2 }}%}{% endcapture %} {{ home_2 | markdownify }} {% endif %}</h3>
                     <p data-aos="fade-up" data-aos-delay="400">
-                    Lore ipsum dolor sit amet, consectetur adipis
+                        {% if page.home_1 %} {% capture home_3 %}{% include_relative _texts/{{ page.home_3 }}%}{% endcapture %} {{ home_3 | markdownify }} {% endif %}
                     </p>
                     <div data-aos="fade-up" data-aos-delay="800">
                         <a href="#regolamento" class="btn-get-started scrollto">Regolamento</a>
@@ -242,9 +243,9 @@
                 <div class="row">
 
                     <div class="col-6 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3>About</h3>
+                        <h3>Informazioni</h3>
                         <p>
-                            Biking Improver è un progetto nato dalla tesi di laurea di Francesco Weikman nel suo periodo in <a href="https://www.fbk.eu/">Foundazione Bruno Kessler</a> promosso da <a href="https://wikimediaitalia.it">Wikimedia Italia</a> 
+                            {% if page.info %} {% capture info %}{% include_relative _texts/{{ page.info }}%}{% endcapture %} {{ info | markdownify }} {% endif %}
                         </p>
                     </div>
 
