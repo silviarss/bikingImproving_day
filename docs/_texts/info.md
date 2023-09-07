@@ -1,3 +1,1 @@
-Biking Improver è un progetto nato dalla tesi di laurea di Francesco Weikman nel suo periodo in [Foundazione Bruno Kessler](https://www.fbk.eu) promosso da [Wikimedia Italia](https://wikimediaitalia.it)<br/>
-Modifica info.md
-
+BikingImproving day è un evento promosso da [Wikimedia Italia](https://wikimediaitalia.it) in collaborazione con la [Foundazione Bruno Kessler](https://www.fbk.eu), volto a promuovere la web-app BikingImprover realizzata per il concorso Open Source Software for Sustainable Development Goals – Sustainable Cities & Communities organizzato dalle Nazioni Unite e dalla Commissione Europea.
