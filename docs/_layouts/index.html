@@ -130,58 +130,20 @@
                 <div class="section-title" data-aos="fade-up">
                     <h2>Regolamento</h2>
                 </div>
-
-                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                {% for rule in site.data.rules %} {% assign fdelay = fdelay | plus: 50 %}
+                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="{{ fdelay }}">
                     <div class="col-lg-5">
                         <i class="ri-checkbox-blank-line"></i>
-                        <h4>Date importanti</h4>
+                        <h4>{{ rule.title }}</h4>
                     </div>
                     <div class="col-lg-7">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            {{ rule.text }} 
                         </p>
                     </div>
                 </div>
                 <!-- End F.A.Q Item-->
-
-                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                    <div class="col-lg-5">
-                        <i class="ri-checkbox-blank-line"></i>
-                        <h4>Chi può partecipare</h4>
-                    </div>
-                    <div class="col-lg-7">
-                        <p>
-                            Repellendus modi nihil maiores ad magni voluptatem ut, eligendi dolores. 
-                        </p>
-                    </div>
-                </div>
-                <!-- End F.A.Q Item-->
-
-                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                    <div class="col-lg-5">
-                        <i class="ri-checkbox-blank-line"></i>
-                        <h4>Valutazione</h4>
-                    </div>
-                    <div class="col-lg-7">
-                        <p>
-                            Ipsum ut molestias sit in repudiandae eius ad neque, voluptates vitae consequatur?
-                        </p>
-                    </div>
-                </div>
-                <!-- End F.A.Q Item-->
-
-                <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-                    <div class="col-lg-5">
-                        <i class="ri-checkbox-blank-line"></i>
-                        <h4>Premi</h4>
-                    </div>
-                    <div class="col-lg-7">
-                        <p>
-                            Ipsum ut molestias sit in repudiandae eius ad neque, voluptates vitae consequatur?
-                        </p>
-                    </div>
-                </div>
-                <!-- End F.A.Q Item-->
+                {% endfor %}
 
                 <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
                     <div class="col-lg-5">
@@ -213,13 +175,13 @@
                 <div class="row">
                     <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-left">
                         <h5 data-aos="fade-up">
-                            Ricchi premi
+                        I partecipanti verranno premiati in questo modo    
                         </h5>
                         <p>
-                            <h6 data-aos="fade-up" data-aos-delay="400">primo</h6>
-                            <h6 data-aos="fade-up" data-aos-delay="400">secondo</h6>
-                            <h6 data-aos="fade-up" data-aos-delay="400">terzo</h6>
-                            <h6 data-aos="fade-up" data-aos-delay="400">...</h6>
+                            <h6 data-aos="fade-up" data-aos-delay="400">{% if page.prize_1 %} {% capture prize_1 %}{% include_relative _texts/{{ page.prize_1 }}%}{% endcapture %} {{ prize_1 | markdownify }} {% endif %}</h6>
+                            <h6 data-aos="fade-up" data-aos-delay="400">{% if page.prize_2 %} {% capture prize_2 %}{% include_relative _texts/{{ page.prize_2 }}%}{% endcapture %} {{ prize_1 | markdownify }} {% endif %}</h6>
+                            <h6 data-aos="fade-up" data-aos-delay="400">{% if page.prize_3 %} {% capture prize_3 %}{% include_relative _texts/{{ page.prize_3 }}%}{% endcapture %} {{ prize_1 | markdownify }} {% endif %}</h6>
+                            <h6 data-aos="fade-up" data-aos-delay="400">{% if page.other_awards %} {% capture other_awards %}{% include_relative _texts/{{ page.other_awards }}%}{% endcapture %} {{ other_awards | markdownify }} {% endif %}</h6>
                         </p>
                         <p data-aos="fade-up" data-aos-delay="400">Vedi il <a href="#regolament">regolamento</a></p>
                     </div>
