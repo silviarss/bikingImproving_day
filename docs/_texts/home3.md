@@ -1,1 +1,1 @@
-Scopri come partecipare
+Leggi il regolamento e gioca con noi!
