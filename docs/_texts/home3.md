@@ -1,1 +1,1 @@
-modifica home3
+Leggi il regolamento e gioca con noi!
