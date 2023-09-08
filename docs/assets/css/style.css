@@ -314,7 +314,7 @@ background: #c1d77f;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #d89aac;
+  color: #c1d77f;
   text-decoration: none;
 }
 
@@ -1236,7 +1236,7 @@ background: #c1d77f;
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #d89aac;
+  color: #c1d77f;
   font-weight: 500;
   font-family:"stratos", "Inter","Open Sans", sans-serif;
   margin-bottom: 20px;
@@ -1288,7 +1288,7 @@ color: #444444;
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 50px;
-  border: 2px solid #d89aac;
+  border: 2px solid #c1d77f;
   /*rosa color: #d89aac;*/
 color: #444444;
   font-size: 14px;
@@ -1305,7 +1305,7 @@ background: #c1d77f;
 }
 
 .pricing .recommended {
-  border-color: #d89aac;
+  border-color: #c1d77f;
 }
 
 .pricing .recommended .btn-buy {
@@ -1393,7 +1393,7 @@ color: #444444;
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #d89aac;
+  border: 1px solid #c1d77f;
 }
 
 .contact .social-links a:hover {
@@ -1596,7 +1596,7 @@ background: #c1d77f;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #d89aac !important;
+  background-color: #c1d77f !important;
 }
 
 .portfolio-details .portfolio-info {
