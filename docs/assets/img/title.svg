@@ -35,6 +35,12 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs2" />
+    <style>
+      @font-face {
+        font-family: "stratos";
+        src: url('../vendor/fonts/stratos/Stratos-Regular.ttf') format('truetype');
+      }
+    </style>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
