@@ -1,1 +1,1 @@
-modifica prize2.md
+Secondo posto: premio dal valore di 200 euro
