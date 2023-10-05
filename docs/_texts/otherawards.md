@@ -1,1 +1,1 @@
-A tutti coloro che parteciperanno attivamente alla competizione verrà recapitata un'utilissima borraccia
+A tutti coloro che parteciperanno attivamente alla competizione verrà recapitata a casa un'utilissima borraccia
