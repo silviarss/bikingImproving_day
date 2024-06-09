@@ -1,4 +1,4 @@
-BikingImproving Day è un evento promosso da [Wikimedia Italia](https://wikimediaitalia.it) , in collaborazione Maurizio Napolitano con l’obiettivo di lanciare l'uso della web-app BikingImprover: un'applicazione finalizzata alla raccolta dei dati relativi alla ciclabilità urbana su [OpenStreetMap](https://www.openstreetmap.org) attraverso il gioco.<br/>
+BikingImprover Day è un evento promosso da [Wikimedia Italia](https://wikimediaitalia.it) , in collaborazione Maurizio Napolitano con l’obiettivo di lanciare l'uso della web-app BikingImprover: un'applicazione finalizzata alla raccolta dei dati relativi alla ciclabilità urbana su [OpenStreetMap](https://www.openstreetmap.org) attraverso il gioco.<br/>
 L’applicazione è stata sviluppata nel periodo di stage di Francesco Weikmann presso la
 [Fondazione Bruno Kessler](https://www.fbk.eu) e si è aggiudicata il secondo posto al concorso [Open Source
 Software for Sustainable Development Goals – Sustainable Cities & Communities](https://ideas.unite.un.org/sdg11/Page/Overview) organizzato dalle Nazioni Unite e dalla Commissione Europea e successivamente re-ingegnerizzata da [GISDevio](https://gisdev.io).<br/>
